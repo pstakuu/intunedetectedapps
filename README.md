@@ -33,3 +33,6 @@ I was originally using the auth token from the Graph Explorer to cheat the auth
 That makes the powershell version of authentication a little more complicated, because you can't just spray out the clientid, clientsecret, and away you go.You have to authenticate to the app as your admin account, and get a delegated authorization code.  You then go back to the app with that auth code instead of clientsecret, and that's how you have delegated your admin account permissions in Intune through the app registration.
 At that point, anything your admin account has access to(Intune Admin), provided you have also given the app registration permission to access (Intune Device Management Read All), you can hit the GraphAPI endpoints to use.
 
+I followed instructions here to clear history when I had actual IDs in original upload:
+
+https://tecadmin.net/delete-commit-history-in-github/#:~:text=Delete%20Commit%20History%20in%20Github%20Repository%201%20Create,from%20your%20git%20repository.%20...%20More%20items...
